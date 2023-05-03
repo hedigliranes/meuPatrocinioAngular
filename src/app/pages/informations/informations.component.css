@@ -1,0 +1,79 @@
+.container {
+    position: relative;
+    height: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacer {
+    height: 60px;
+    margin: 0 auto;
+    background-color: #fff
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #e00c00;
+    color: #fff;
+    border-radius: 4px;
+    border: 0px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 40px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    line-height: 1.5;
+    text-transform: initial;
+}
+
+.flex-item_1-1 {
+    width: 48.5%;
+    margin-right: 3%;
+}
+
+.flex-item_1-2 {
+    width: 48.5%;
+    margin-right: 0;
+}
+
+.title {
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.clear {
+    clear: both;
+}
+
+.image-holder{
+    min-height: 70px;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.property-content .property-title {
+    font-size: 18px;
+    line-height: 28px;
+    color: #222;
+    font-weight: 700;
+    text-align: left;
+}
+
+.property-content .property-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #222;
+    text-align: left;
+}

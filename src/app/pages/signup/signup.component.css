@@ -1,0 +1,27 @@
+.cta-banner {
+    padding: 70px 0;
+    background-color: #fff;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    background-color: #e00c00;
+    color: #fff;
+    border-radius: 4px;
+    border: 0px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 40px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    line-height: 1.5;
+    text-transform: initial;
+}
+
+h2 {
+    font-weight: 700;
+}
