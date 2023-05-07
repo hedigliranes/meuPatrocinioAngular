@@ -1,2 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Open Sans',sans-serif !important; 
+  }

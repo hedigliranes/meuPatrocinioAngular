@@ -3,7 +3,7 @@
 }
 
 .container {
-    padding: 35px 0px;
+    padding: 28px 0px;
     margin:  0px 152px 0 152px;
     max-width: 1120px;
     font-size: 15px;
@@ -83,9 +83,16 @@ div[role=search] .btn i {
     margin-top: 0;
  }
 
+ .dropdown-toggle::after {
+    margin-left:0px;
+ }
+
  #signUpButton {
     color: white;
-    background-color: red;
+    background-color: #e00c00;
+    font-weight: 600;
+    padding: 6px 14px;
+    margin-left: 10px;
  }
 
  #navbarSupportedContent{
@@ -102,4 +109,13 @@ div[role=search] .btn i {
     align-items: center;
     margin-right: 0 !important;
 
+ }
+
+ .container-fluid {
+    padding: 0;
+    height: 36px;
+ }
+
+ #navbarSupportedContent a{
+    font-weight: 600;
  }
